@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 32px;
+    width: 100%;
+
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(22, 219, 219);
+
+
+}
+
+
+
+
+.navbar__lists {
+    list-style: none;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    gap: 20px;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.section2 {
+    display: flex;
+    gap: 70px;
+    padding: 10px 0;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px;
+}
+.image{
+    width: 400px;
+    height: 400px;
+}
+.section3{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section3 div{
+    color: black;
+    font-size: 10px;
+}
+h1{
+    width: 450px;
+    padding: 10px 0;
+}
+
+
+.mark , p{
+    color: aqua;
+}
+
+.with {
+    color: blue;
+}
+.text2{
+    margin: 30px 0;
+    width: 500px;
+    color: black;
+
+}
+.seo{
+    color: white;
+}
+
+.discover{
+    background-color: aqua;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: none;
+}
